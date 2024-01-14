@@ -8,7 +8,7 @@ var questions = [
         3: "alerts",
         4: "numbers",
       },
-      correctAnswer: "alerts",
+      correctAnswer: 3,
     },
   
     {
@@ -20,7 +20,7 @@ var questions = [
         3: "parenthesis",
         4: "square brackets",
       },
-      correctAnswer: "curly brackets",
+      correctAnswer: 2,
     },
   
     {
@@ -31,7 +31,7 @@ var questions = [
         3: "booleans",
         4: "all of the above",
       },
-      correctAnswer: "all of the above",
+      correctAnswer: 4,
     },
   
     {
@@ -43,7 +43,7 @@ var questions = [
         3: "quotes",
         4: "parenthesis",
       },
-      correctAnswer: "quotes",
+      correctAnswer: 3,
     },
   
     {
@@ -55,7 +55,7 @@ var questions = [
         3: "for loops",
         4: "console.log",
       },
-      correctAnswer: "console.log"
+      correctAnswer: 4,
     },
 
     {
@@ -67,7 +67,29 @@ var questions = [
         3: "pop", 
         4: "None of the Above"
         },
-        correctAnswer: "pop"
+        correctAnswer: 3,
     },
 
-    ]
+    {
+      question: "Questions 8 : Which event occurs when the user clicks on an HTML element?",
+      answers: {
+      1: "onclick", 
+      2: "onchange",
+      3: "onmouseover", 
+      4: "onmouseclick",
+      },
+      correctAnswer: 1
+  },
+
+  {
+    question: " The first index of an array is ____.",
+    answers: {
+      1: "0",
+      2: "1",
+      3: "9",
+      4: "10",
+      },
+      correctAnswer: 1,
+  }
+
+]

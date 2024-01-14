@@ -12,7 +12,7 @@
   <body>
     <div class="scores"><a href="highscores.html">View Highscores</a></div>
 
-    <div class="timer">Time: <span id="time">90</span></div>
+    <div class="timer">Time Left: <span id="time">120</span></div>
 
     <div class="wrapper">
       <div id="start-screen" class="start">
@@ -26,8 +26,21 @@
       </div>
 
       <div id="questions" class="hide">
-        <h2 id="question-title"></h2>
-        <div id="choices" class="choices"></div>
+        <h2 id="question-title">Question</h2>
+        <ul>
+          <li><button class ="answers button" id="answer_btn1" value="1">1</button></li>
+          <li><button class ="answers button" id="answer_btn2" value="2">2</button></li>
+          <li><button class ="answers button" id="answer_btn3" value="3">3</button></li>
+          <li><button class ="answers button" id="answer_btn4" value="4">4</button></li>
+        </ul>
+      <div>
+        <div id="answers" class="answers"></div>
+      </div>
+
+        <!--question check-->
+      <div id="check_line">
+          <p>Correct or Wrong</p>
+      <!-- </div> -->
       </div>
 
       <div id="end-screen" class="hide">
@@ -44,5 +57,5 @@
     
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/logic.js"></script>
-  </body>
+    </body>
 </html>
